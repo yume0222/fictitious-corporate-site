@@ -142,7 +142,7 @@ header {
 .content {
   padding: 2rem 1rem;
 }
-.row-reverse {
+.bg {
   background-color: #FFF2F0;
 }
 .content h2:nth-child(1) {
