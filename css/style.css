@@ -117,18 +117,21 @@ header {
   background-repeat: no-repeat;
   background-size: 70vw auto;
   background-position: right top;
-  padding: 5rem 1rem;
+  padding: 5.5rem 1rem 3rem;
 }
-h1 {
+.home-hero h1 {
   display: inline-block;
   margin: 8vw 0 12vw;
   padding: 1rem;
   background: rgba(225, 225, 225, .8);
 }
+/* .home-hero p {
+  margin-bottom: 2rem;
+} */
 .home-hero a {
   display: inline-block;
   width: 100%;
-  margin-top: 16px;
+  margin-top: 32px;
   padding: 12px 32px;
   background: var(--main-color);
   color: #ffffff;
@@ -211,7 +214,7 @@ td {
 .timeline {
   display: inline-block;
   list-style: decimal inside;
-  margin: 16px 0 96px;
+  margin: 16px auto 96px;
 }
 .timeline-title {
   margin-top: 24px;
@@ -350,10 +353,13 @@ footer li {
   .home-hero {
     padding: 16vw 1rem;
   }
-  h1 {
+  .home-hero h1 {
     margin: 0 0 2vw;
     padding: 0;
     background: none;
+  }
+  .home-hero p {
+    width: 38vw;
   }
   .home-hero a {
     width: initial;
@@ -402,7 +408,7 @@ footer li {
   }
   /* タイムライン */
   .timeline {
-    margin: 48px 0 96px;
+    margin: 48px auto 96px;
   }
   .timeline-item {
     display: flex;
